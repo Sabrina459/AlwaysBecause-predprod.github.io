@@ -3,123 +3,39 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="icon" href="BeCauseLogo.png" type="image/x-icon">
+    <link rel="icon" href="./images/BeCauseLogo.png" type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BeCause</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Fira+Sans+Extra+Condensed:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
           rel="stylesheet">
     <style>
         html {
             scroll-behavior: smooth;
         }
 
-        .poppins-thin {
-            font-family: "Poppins", sans-serif;
-            font-weight: 100;
-            font-style: normal;
-        }
-
-        .poppins-extralight {
-            font-family: "Poppins", sans-serif;
-            font-weight: 200;
-            font-style: normal;
-        }
-
-        .poppins-light {
-            font-family: "Poppins", sans-serif;
-            font-weight: 300;
-            font-style: normal;
-        }
-
-        .poppins-regular {
-            font-family: "Poppins", sans-serif;
+        .fira-sans-extra-condensed-regular {
+            font-family: "Fira Sans Extra Condensed", sans-serif;
             font-weight: 400;
             font-style: normal;
         }
 
-        .poppins-medium {
-            font-family: "Poppins", sans-serif;
-            font-weight: 500;
-            font-style: normal;
-        }
-
-        .poppins-semibold {
-            font-family: "Poppins", sans-serif;
-            font-weight: 600;
-            font-style: normal;
-        }
-
-        .poppins-bold {
-            font-family: "Poppins", sans-serif;
+        .fira-sans-extra-condensed-bold {
+            font-family: "Fira Sans Extra Condensed", sans-serif;
             font-weight: 700;
             font-style: normal;
         }
 
-        .poppins-extrabold {
-            font-family: "Poppins", sans-serif;
-            font-weight: 800;
-            font-style: normal;
-        }
-
-        .poppins-black {
-            font-family: "Poppins", sans-serif;
-            font-weight: 900;
-            font-style: normal;
-        }
-
-        .poppins-thin-italic {
-            font-family: "Poppins", sans-serif;
-            font-weight: 100;
-            font-style: italic;
-        }
-
-        .poppins-extralight-italic {
-            font-family: "Poppins", sans-serif;
-            font-weight: 200;
-            font-style: italic;
-        }
-
-        .poppins-light-italic {
-            font-family: "Poppins", sans-serif;
-            font-weight: 300;
-            font-style: italic;
-        }
-
-        .poppins-regular-italic {
-            font-family: "Poppins", sans-serif;
+        .fira-sans-extra-condensed-regular-italic {
+            font-family: "Fira Sans Extra Condensed", sans-serif;
             font-weight: 400;
             font-style: italic;
         }
 
-        .poppins-medium-italic {
-            font-family: "Poppins", sans-serif;
-            font-weight: 500;
-            font-style: italic;
-        }
-
-        .poppins-semibold-italic {
-            font-family: "Poppins", sans-serif;
-            font-weight: 600;
-            font-style: italic;
-        }
-
-        .poppins-bold-italic {
-            font-family: "Poppins", sans-serif;
+        .fira-sans-extra-condensed-bold-italic {
+            font-family: "Fira Sans Extra Condensed", sans-serif;
             font-weight: 700;
-            font-style: italic;
-        }
-
-        .poppins-extrabold-italic {
-            font-family: "Poppins", sans-serif;
-            font-weight: 800;
-            font-style: italic;
-        }
-
-        .poppins-black-italic {
-            font-family: "Poppins", sans-serif;
-            font-weight: 900;
             font-style: italic;
         }
 
@@ -163,25 +79,20 @@
             cursor: pointer;
             color: black;
             font-size: 21px;
-            font-family: Poppins, sans-serif;
-            font-weight: 400;
-            letter-spacing: 0.63px;
             word-wrap: break-word;
         }
 
         .home-section {
-            justify-content: center;
+            justify-content: space-evenly;
             align-items: center;
             display: inline-flex;
+            width: 100%;
         }
 
         .header-menu a:hover {
             text-decoration: underline;
         }
 
-        .header-menu-link {
-
-        }
 
         .header-links-wrapper {
             width: 80%;
@@ -194,16 +105,14 @@
         .header-button {
             color: white;
             font-size: 21px;
-            font-family: Poppins;
             font-weight: 400;
-            letter-spacing: 0.63px;
             white-space: nowrap;
             padding: 4px 16px;
             width: max-content;
             height: 51px;
             border: none;
             cursor: pointer;
-            background: #FD6F00;
+            background: #F19876;
             display: flex;
             border-radius: 14px;
             justify-content: center;
@@ -213,7 +122,7 @@
         .btn-main {
             color: white;
             font-size: 21px;
-            font-family: Poppins;
+            font-family: Lato;
             font-weight: 400;
             letter-spacing: 0.63px;
             white-space: nowrap;
@@ -222,15 +131,19 @@
             height: 75px;
             border: none;
             cursor: pointer;
-            background: #FD6F00;
+            background: #F19876;
             display: flex;
             border-radius: 14px;
             justify-content: center;
             align-items: center
         }
-
+        left-title-p-content{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
         body {
-            font-family: Montserrat, Arial, sans-serif;
+            font-family: Lato, Fira Sans Condensed, sans-serif;
             color: #333;
             display: flex;
             flex-direction: column;
@@ -277,6 +190,27 @@
             gap: 30px;
         }
 
+        h1 {
+            font-family: "Fira Sans Extra Condensed", sans-serif;
+            font-weight: 700;
+            font-style: normal;
+            letter-spacing: -0.025em;
+        }
+
+        h2 {
+            font-family: "Fira Sans Extra Condensed", sans-serif;
+            font-weight: 700;
+            font-style: normal;
+            line-height: 10pt;
+
+            letter-spacing: -0.025em;
+        }
+
+        * {
+            font-family: Lato, serif;
+            letter-spacing: -0.025em;
+        }
+
         .image-text-container {
             width: 100%;
             max-width: 1400px;
@@ -319,6 +253,7 @@
             display: flex;
             padding-top: 60px;
             justify-content: space-evenly;
+            gap:10px;
 
         }
 
@@ -337,6 +272,7 @@
             gap: 10px;
             display: inline-flex;
         }
+
         footer {
             position: fixed;
             bottom: 0;
@@ -347,6 +283,7 @@
             text-align: right;
             width: 100%;
         }
+
         .footer {
             width: 100%;
         }
@@ -359,7 +296,7 @@
             cursor: pointer;
             color: black;
             font-size: 21px;
-            font-family: Poppins, sans-serif;
+            font-family: Lato, sans-serif;
             letter-spacing: 0.63px;
             word-wrap: break-word;
         }
@@ -371,8 +308,8 @@
     <div class="header-menu">
         <div style="min-width:300px;justify-content: flex-start; align-items: flex-start; gap: 20px; display: flex">
             <img style="width: 67px; height: 67px" src="./images/BeCauseLogo.png"/>
-            <div><span style="color: #FCC000; font-size: 48px; font-family: Montserrat; font-weight: 600; ">Be</span>
-                <span style="color: #1E1E1E; font-size: 48px; font-family: Montserrat; font-weight: 600; ">Cause</span>
+            <div><span style="color: #F19976; font-size: 48px; ">Be</span>
+                <span style="color: #1E1E1E; font-size: 48px; ">Cause</span>
             </div>
         </div>
         <div class="header-links-wrapper">
@@ -402,22 +339,20 @@
 <div class="container">
     <div class="home-section" id="home">
         <div class="main-text">
-            <div class="poppins-semibold"
-                 style="font-size: 1.5rem; letter-spacing: 0.72px; word-wrap: break-word">
-                Hi we are
-                <span class="poppins-semibold"
-                      style="color: #FD6F00; font-size: 2rem; letter-spacing: 0.96px; word-wrap: break-word">
+            <div style="font-family: 'Lato Bold',serif; font-size: 1.5rem; word-wrap: break-word">
+                Hi, we are
+                <span style="color: #FD6F00;font-family: 'Lato Bold',serif; font-size: 2rem; word-wrap: break-word">
                     AlwaysBecause
                 </span>
             </div>
             <h1
-                    style="width: 100%;color: black; font-size: 5rem; font-family: Poppins; font-weight: 700; line-height: 96px; letter-spacing: 3px; display: flex; flex-direction: column; position: relative">
+                    style="width: 100%;color: black; font-size: 5rem;display: flex; flex-direction: column; position: relative">
                 <span style="margin-left: 100px">Join Us</span>
                 <span style="margin-left: 200px"> in Building</span>
-                <span style="background-color: rgba(253, 111, 0, 0.60); white-space: nowrap">a Better Community!</span>
+                <span style="background-color: rgba(241,152,118	, 0.60); white-space: nowrap">a Better Community!</span>
             </h1>
             <div class="btn-main">
-                <div style="color: white; font-size: 21px; font-family: Poppins; font-weight: 400; letter-spacing: 0.63px; word-wrap: break-word">
+                <div style="color: white; font-size: 21px; font-family: Lato,serif; font-weight: 400; word-wrap: break-word">
                     Coming Soon
                 </div>
             </div>
@@ -447,7 +382,7 @@
                     <linearGradient id="paint0_linear_1102_289" x1="277.725" y1="-5.66434" x2="258.958" y2="394.708"
                                     gradientUnits="userSpaceOnUse">
                         <stop stop-color="white" stop-opacity="0"/>
-                        <stop offset="1" stop-color="#FF8233"/>
+                        <stop offset="1" stop-color="#F19876"/>
                     </linearGradient>
                 </defs>
             </svg>
@@ -491,16 +426,17 @@
                 <linearGradient id="paint0_linear_1102_289" x1="277.725" y1="-5.66434" x2="258.958" y2="394.708"
                                 gradientUnits="userSpaceOnUse">
                     <stop stop-color="white" stop-opacity="0"/>
-                    <stop offset="1" stop-color="#FF8233"/>
+                    <stop offset="1" stop-color="#F19876"/>
                 </linearGradient>
             </defs>
         </svg>
-        <img style="width: auto; height: 500px; left: 0px; top: 0px; position: absolute" src="./images/BeCauseLogo.png"/>
+        <img style="width: auto; height: 500px; left: 0px; top: 0px; position: absolute"
+             src="./images/BeCauseLogo.png"/>
     </div>
-    <div class="content">
-        <h2 style="color: black; font-size: 65px; font-family: Poppins; font-weight: 600; letter-spacing: 1.95px; word-wrap: break-word">
+    <div class="left-title-p-content">
+        <h2 style="color: black; font-size: 65px; word-wrap: break-word">
             About Us</h2>
-        <p style="width: 756px; height: 101px; color: black; font-size: 32px; font-family: Poppins; font-weight: 400; letter-spacing: 0.96px; word-wrap: break-word">
+        <p style=" color: black; font-size: 32px; word-wrap: break-word">
             Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh lectus netus in. Aliquet donec morbi
             convallis pretium. Turpis tempus pharetra</p>
     </div>
@@ -508,20 +444,21 @@
 <div class="contactUs" id="contact"
      style="width: 932px; height: 337px; flex-direction: column; justify-content: center; align-items: center; gap: 48px; display: inline-flex">
     <div class="Group36" style="width: 932px; flex: 1 1 0; position: relative">
-        <div class="LoremIpsumDolorSitAmetConsecteturTristiqueAmetSedMassaNibhLectusNetusInAliquetDonecMorbiConvallisPretium"
-             style="width: 932px; height: 101px; left: 0px; top: 113px; position: absolute; text-align: center; color: black; font-size: 21px; font-family: Poppins; font-weight: 400; letter-spacing: 0.63px; word-wrap: break-word">
+
+        <h2 class="ContactSupport"
+            style="text-align: center; color: black; font-size: 65px; word-wrap: break-word">
+            Contact Support
+        </h2>
+        <p
+                style="width: 932px; height: 101px; text-align: center; color: black; font-size: 21px; word-wrap: break-word">
             Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh lectus netus in. Aliquet donec morbi
             convallis pretium
-        </div>
-        <div class="ContactSupport"
-             style="left: 179px; top: 0px; position: absolute; text-align: center; color: black; font-size: 65px; font-family: Poppins; font-weight: 600; letter-spacing: 1.95px; word-wrap: break-word">
-            Contact Support
-        </div>
+        </p>
     </div>
     <div class="Group37" style="width: 874px; height: 75px; position: relative; justify-items: center">
         <button class="btn-main">
             <div class="ContactMe"
-                 style="height: min-content; text-align: center; color: white; font-size: 24px; font-family: Poppins; font-weight: 600; letter-spacing: 0.72px; word-wrap: break-word">
+                 style="height: min-content; text-align: center; color: white; font-size: 24px;  word-wrap: break-word">
                 Contact Us
             </div>
         </button>
@@ -531,21 +468,21 @@
      style="padding-bottom: 13.52px; padding-left: 0.50px; padding-right: 8px; justify-content: center; align-items: center; display: inline-flex">
     <div class="Group22">
         <div class="Group14" style="gap: 30px; display: flex; flex-direction: column">
-            <div class="OurSocialMedias"
-                 style="text-align: center; color: black; font-size: 65px; font-family: Poppins; font-weight: 600; letter-spacing: 1.95px; word-wrap: break-word">
+            <h2
+                    style="text-align: center; color: black; font-size: 65px;  word-wrap: break-word">
                 Our Partners
-            </div>
-            <div class="LoremIpsumDolorSitAmetConsecteturTristiqueAmetSedMassaNibhLectusNetusInAliquetDonecMorbiConvallisPretium"
-                 style="text-align: center; color: black; font-size: 21px; font-family: Poppins; font-weight: 400; letter-spacing: 0.63px; word-wrap: break-word">
+            </h2>
+            <p
+                    style="text-align: center; color: black; font-size: 21px;  word-wrap: break-word">
                 Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh lectus netus in. Aliquet donec
                 morbi convallis pretium
-            </div>
+            </p>
         </div>
         <div class="icon-plates-wrapper">
             <div class="icon-frame">
                 <img class="Image1" style="width: 120px; height: 120px;" src="./images/image%201.svg"/>
                 <div class="Instagram"
-                     style="text-align: center; color: black; font-size: 32px; font-family: Poppins; font-weight: 600; letter-spacing: 0.96px; word-wrap: break-word">
+                     style="text-align: center; color: black; font-size: 32px; word-wrap: break-word">
                     Instagram
                 </div>
 
@@ -554,7 +491,7 @@
                  style="width: 239px; height: 239px; padding-left: 18px; padding-right: 18px; padding-top: 38px; padding-bottom: 38px; background: #F8F8F8; border-radius: 14px; flex-direction: column; justify-content: center; align-items: center; gap: 10px; display: inline-flex">
                 <img class="Image2" style="width: 123px; height: 123px" src="./images/linkedin.png"/>
                 <div class="Linkedin"
-                     style="color: black; font-size: 32px; font-family: Poppins; font-weight: 600; letter-spacing: 0.96px; word-wrap: break-word">
+                     style="color: black; font-size: 32px;  word-wrap: break-word">
                     LinkedIn
                 </div>
             </div>
@@ -562,7 +499,7 @@
                  style="width: 239px; height: 239px; padding-left: 36px; padding-right: 36px; padding-top: 38px; padding-bottom: 38px; background: #F8F8F8; border-radius: 14px; flex-direction: column; justify-content: center; align-items: center; gap: 10px; display: inline-flex">
                 <img class="Image2" style="width: 123px; height: 123px" src="./images/image%202.svg"/>
                 <div class="Facebook"
-                     style="color: black; font-size: 32px; font-family: Poppins; font-weight: 600; letter-spacing: 0.96px; word-wrap: break-word">
+                     style="color: black; font-size: 32px; word-wrap: break-word">
                     Facebook
                 </div>
             </div>
@@ -570,7 +507,7 @@
                  style="width: 239px; height: 239px; padding-left: 18px; padding-right: 18px; padding-top: 38px; padding-bottom: 38px;  background: #F8F8F8; border-radius: 14px; flex-direction: column; justify-content: center; align-items: center; gap: 10px; display: inline-flex">
                 <img class="Image2" style="width: 123px; height: 123px" src="./images/discord.png"/>
                 <div class="Discord"
-                     style="color: black; font-size: 32px; font-family: Poppins; font-weight: 600; letter-spacing: 0.96px; word-wrap: break-word">
+                     style="color: black; font-size: 32px; word-wrap: break-word">
                     Discord
                 </div>
             </div>
@@ -581,47 +518,47 @@
      style="padding-bottom: 13.52px; padding-left: 0.50px; padding-right: 8px; justify-content: center; align-items: center; display: inline-flex">
     <div class="Group22">
         <div class="Group14" style="gap: 30px; display: flex; flex-direction: column">
-            <div class="OurSocialMedias"
-                 style="text-align: center; color: black; font-size: 65px; font-family: Poppins; font-weight: 600; letter-spacing: 1.95px; word-wrap: break-word">
+            <h2
+                    style="text-align: center; color: black; font-size: 65px;  word-wrap: break-word">
                 Our Social Medias
-            </div>
+            </h2>
             <div class="LoremIpsumDolorSitAmetConsecteturTristiqueAmetSedMassaNibhLectusNetusInAliquetDonecMorbiConvallisPretium"
-                 style="text-align: center; color: black; font-size: 21px; font-family: Poppins; font-weight: 400; letter-spacing: 0.63px; word-wrap: break-word">
+                 style="text-align: center; color: black; font-size: 21px;  word-wrap: break-word">
                 Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh lectus netus in. Aliquet donec
                 morbi convallis pretium
             </div>
         </div>
         <div class="icon-plates-wrapper">
             <div class="icon-frame"
-                 style="width: 239px; height: 239px; padding-left: 18px; padding-right: 18px; padding-top: 38px; padding-bottom: 38px; background: #F8F8F8; border-radius: 14px; flex-direction: column; justify-content: center; align-items: center; gap: 10px; display: inline-flex">
+            >
                 <img class="Image1" style="width: 120px; height: 120px;" src="./images/image%201.svg"/>
                 <div class="Instagram"
-                     style="text-align: center; color: black; font-size: 32px; font-family: Poppins; font-weight: 600; letter-spacing: 0.96px; word-wrap: break-word">
+                     style="text-align: center; color: black; font-size: 32px;  word-wrap: break-word">
                     Instagram
                 </div>
 
             </div>
             <div class="icon-frame"
-                 style="width: 239px; height: 239px; padding-left: 18px; padding-right: 18px; padding-top: 38px; padding-bottom: 38px; background: #F8F8F8; border-radius: 14px; flex-direction: column; justify-content: center; align-items: center; gap: 10px; display: inline-flex">
+            >
                 <img class="Image2" style="width: 123px; height: 123px" src="./images/linkedin.png"/>
                 <div class="Linkedin"
-                     style="color: black; font-size: 32px; font-family: Poppins; font-weight: 600; letter-spacing: 0.96px; word-wrap: break-word">
+                     style="color: black; font-size: 32px;  word-wrap: break-word">
                     LinkedIn
                 </div>
             </div>
             <div class="icon-frame"
-                 style="width: 239px; height: 239px; padding-left: 36px; padding-right: 36px; padding-top: 38px; padding-bottom: 38px; background: #F8F8F8; border-radius: 14px; flex-direction: column; justify-content: center; align-items: center; gap: 10px; display: inline-flex">
+            >
                 <img class="Image2" style="width: 123px; height: 123px" src="./images/image%202.svg"/>
                 <div class="Facebook"
-                     style="color: black; font-size: 32px; font-family: Poppins; font-weight: 600; letter-spacing: 0.96px; word-wrap: break-word">
+                     style="color: black; font-size: 32px; word-wrap: break-word">
                     Facebook
                 </div>
             </div>
             <div class="icon-frame"
-                 style="width: 239px; height: 239px; padding-left: 18px; padding-right: 18px; padding-top: 38px; padding-bottom: 38px;  background: #F8F8F8; border-radius: 14px; flex-direction: column; justify-content: center; align-items: center; gap: 10px; display: inline-flex">
+            >
                 <img class="Image2" style="width: 123px; height: 123px" src="./images/discord.png"/>
                 <div class="Discord"
-                     style="color: black; font-size: 32px; font-family: Poppins; font-weight: 600; letter-spacing: 0.96px; word-wrap: break-word">
+                     style="color: black; font-size: 32px;  word-wrap: break-word">
                     Discord
                 </div>
             </div>
@@ -631,10 +568,10 @@
 <div class="footer" id="contacts"
      style="height: 500px;width:100%; background: #F8F8F8; display: flex; gap:15px; flex-direction: column;justify-content: center; align-items: center">
     <div style="display: flex">
-        <div class="Alwaysbecause"
-             style="color: #1E1E1E; font-size: 48px; font-family: Montserrat; font-weight: 700; word-wrap: break-word">
+        <h2 class="Alwaysbecause"
+            style="color: #1E1E1E; font-size: 48px; word-wrap: break-word">
             AlwaysBecause
-        </div>
+        </h2>
     </div>
     <div class="Frame3"
          style="width: auto; height: 52px; justify-content: flex-start; align-items: flex-start; gap: 12px; display: inline-flex">
@@ -654,7 +591,7 @@
             Our Partners
         </a>
     </div>
-    <a href="" class="poppins-bold">Terms & Conditions, Privacy Policy</a>
+    <a href="">Terms & Conditions, Privacy Policy</a>
     <div class="Group39" style="display: flex; gap:10px">
         <a href=""><img class="SocialMediaNegative" alt="facebook logo"
                         style="width: 32.48px; height: 32.48px; justify-content: center; align-items: center; display: inline-flex"
